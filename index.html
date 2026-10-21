@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MUST Portal - Create Account</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="C:\Users\Otim Thomas\Pictures\ham.png" alt="MUST Logo" class="logo">
+    <h2>Create Account</h2>
+
+    <form action="login.html" method="post">
+      <label>Surname</label>
+      <input type="text" required>
+
+      <label>Other Names</label>
+      <input type="text" required>
+
+      <label>Phone Number</label>
+      <input type="tel" placeholder="0770000000" required>
+
+      <label>Email Address</label>
+      <input type="email" placeholder="myemail@gmail.com" required>
+
+      <label>Password</label>
+      <input type="password" placeholder="Enter your Password" required>
+
+      <label>Gender</label>
+      <select required>
+        <option value="">Select Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+        
+      </select>
+
+      <div class="buttons">
+        <button type="button" onclick="window.location.href='login.html'">Close</button>
+        <button type="submit">Create Account</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
